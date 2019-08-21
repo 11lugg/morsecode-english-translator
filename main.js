@@ -56,7 +56,13 @@ const letterToMorse = letter => {
   return morseKey[letter];
 };
 
-console.log(letterToMorse("@"));
+const wordToMorse = (message) => {
+   for (message = 0; i < )
+}
+
+// Object.keys(morseKey).map(function(key, index){
+//     morseKey
+// })
 
 engToMorse.addEventListener("submit", function(event) {
   event.preventDefault();
